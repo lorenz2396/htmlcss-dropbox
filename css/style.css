@@ -30,22 +30,37 @@ body {
     margin: 10px -10px;
 }
 
+.img-drop{
+  height: 430px;
+  position: relative;
+  left: 85px;
+}
+.img-business{
+    height: 100%;
+    width: 100%;
+}
+.img-customer{
+    width: 50%;
+    height: 50%;
+}
+
+
 /* BUTTON */
 
 .my-button {
     text-decoration: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 7px;
     background-color: blue;
     color: white;
     text-align: center;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
-.my-button-small{
-    font-size: 0.8em;
-    padding: 7px ;
-    color: white;
+.my-button-grey{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
 }
 
 /* HEADER */
@@ -82,11 +97,11 @@ header .header-top .nav-container ul li a{
 
 .header-bottom .jumbotron{
     position: relative;
-    top: 50px;
+    top: 30px;
 }
 
 h1{
- font-size: 3.5em;
+ font-size: 3em;
  text-align: center;
  font-weight: bold;
 }
@@ -109,26 +124,25 @@ header .header-bottom{
 }
 
 .header-bottom .data .small-data{
-    width: 30%;
-    position: relative;
-    left: 160px;
+    width: 20%;
 }
 
+.header-bottom .data .small-data .top-data{
+    position: relative;
+    left: 220px;
+}
+
+
 .header-bottom .data .big-data{
-    width: 70%;
+    width: 80%;
 }
 
 .header-bottom .data .small-data span {
-    font-size: 1em;
+    font-size: 0.8em;
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
-.header-bottom .data .small-data > *{
-    
-}
-
 
 /* MAIN */
 
@@ -178,8 +192,34 @@ main .pricing-column .pricing-header{
     padding: 10px;
 }
 
+main .pricing-column .pricing-content{
+    margin-bottom: 5px;
+}
+.team-business{
+    position: relative;
+    left: 88px;
+    margin-bottom: 110px;
+}
 main .box-trial{
-    padding: 90px 60px;
+    padding: 90px;
+    display: flex;
+    padding-left: 250px;
+}
+
+main .box-trial > a{
+    margin-left: 100px;
+}
+.fa-ul > li{
+    margin: 15px 0;
+}
+
+main .my-row hr{
+    width: 30%;
+}
+
+main .data .small-data .partner-text{
+    position: relative;
+    left: -270px;
 }
 
 main .customers-container{
@@ -195,6 +235,9 @@ main .customers-container > .single-customer-container{
 }
 
 .single-customer-container > .single-customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 50%;
 }
@@ -242,16 +285,16 @@ main .customers-container > .single-customer-container{
     background-color: pink;
     border: 2px dashed black;
 }  */
-.debug main .my-row{
+/* .debug main .my-row{
     background-color: coral;
     border: 2px dashed black;
 }
 
-.debug .pricing-column{
+  .debug .pricing-column{
     min-height: 300px;
     background-color: green;
     border: 2px dashed black;
-}
+}  */
 
 .debug footer{
     background-color: pink;
@@ -274,7 +317,7 @@ main .customers-container > .single-customer-container{
     background-color: burlywood;
 }
 
-.debug .customers-container{
+/* .debug .customers-container{
     background-color: hotpink;
     border: 2px dashed black;
 }
@@ -285,4 +328,4 @@ main .customers-container > .single-customer-container{
 
 .debug .customers-container .single-customer-container .single-customer{
     border: 2px dashed black;
-}
+} */
