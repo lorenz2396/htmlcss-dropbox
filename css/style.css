@@ -30,6 +30,10 @@ body {
     margin: 10px -10px;
 }
 
+/* main > * {
+    margin-bottom: 40px;
+} */
+
 
 /* HEADER */
 
@@ -119,22 +123,34 @@ section .header-bottom .simile{
     margin-top: 20px;
 }
 
+main .box-trial{
+    padding: 90px 60px;
+    text-align: ;
+}
 
-/* FOOTER */
-.my-row-footer{
+main .customers-container{
     display: flex;
     flex-wrap: wrap;
 }
 
-footer .footer-big-col{
-    width: 100%;
-    
+main .customers-container > .single-customer-container{
+    width: calc(100% / 3);
+    height: calc((100vw - 15px) / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-customer-container > .single-customer {
+    width: 50%;
+    height: 50%;
 }
 
 
+/* FOOTER */
 
 .col-1-5{
     width: calc((100% / 6) * 1);
+    /* margin: 0 10px; */
 }
 
 
@@ -184,14 +200,36 @@ footer .footer-big-col{
     border: 2px dashed black;
 }
 
-.debug .footer-big-col{
-    background-color: darkcyan ;
-    height: 450px;
+.debug footer{
+    background-color: pink;
+    border: 2px dashed red;
+}
+
+.debug footer section{
+    background-color: blueviolet;
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug footer .col-1-5{
+    background-color: green;
+    border: 2px dashed white;
+    min-height: 300px;
+}
+
+.debug .box-trial {
+    background-color: burlywood;
+}
+
+.debug .customers-container{
+    background-color: hotpink;
     border: 2px dashed black;
 }
 
-.debug .footer-inner-col{
-    background-color: chocolate;
-    height: 400px; 
-    border: 2px dashed white;
+.debug .customers-container .single-customer-container{
+    border: 2px dashed black;
+}
+
+.debug .customers-container .single-customer-container .single-customer{
+    border: 2px dashed black;
 }
