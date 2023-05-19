@@ -12,6 +12,7 @@
 */
 body {
     font-family: 'Open Sans', sans-serif;
+    
 }
 
 .container {
@@ -109,9 +110,11 @@ header .header-top .nav-container ul li a{
 }
 
 h1{
- font-size: 3em;
- text-align: center;
- font-weight: bold;
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
 }
 
 .data{
@@ -137,13 +140,17 @@ header .header-bottom{
 
 .top-data{
     position: relative;
-    left: 220px;
+    left: 254px;
+    bottom: 20px;
 }
 
 
 .big-data{
     width: 80%;
+    position: relative;
+    left: 0px;
 }
+
 
 .header-bottom .data .small-data span {
     font-size: 0.8em;
@@ -219,6 +226,11 @@ main .box-trial > a{
 }
 .fa-ul > li{
     margin: 15px 0;
+    font-size: 0.8em;
+}
+
+main .text-li{
+    margin-bottom: 20px;
 }
 
 main .my-row hr{
@@ -232,7 +244,7 @@ main .my-row hr{
 
 main .data .small-data .partner-text{
     position: relative;
-    left: -270px;
+    left: -331px; 
 }
 
 main .customers-container{
@@ -289,6 +301,11 @@ main .customers-container > .single-customer-container{
 
 }
 
+.text-trial{
+    color: #61082b;
+    font-size: 2em;
+}
+
 .h2-faq{
     font-size: 2em;
     position: relative;
@@ -296,17 +313,62 @@ main .customers-container > .single-customer-container{
     bottom: 20px;
 }
 
-
 /* FOOTER */
 
 .col-1-5{
     width: calc((100% / 6) * 1);
-    /* margin: 0 10px; */
+    height: 100%;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    color: white;
+}
+
+footer ul li > a {
+    position: relative;
+    right: 6px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 5px;
+}
+
+
+
+.nav-footer ul{
+    list-style-type: none;
+}
+
+.nav-footer li{
+    margin-bottom: 10px;
+}
+
+.nav-footer h4{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.nav-footer{
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+.footer-background{
+    background-color: black;
+    height: 300px;
+}
+
+footer hr{
+    width: 30%;
 }
 
 
 
 /* DEBUG */
+
+
 /* .debug header .header-top{
     background-color: aquamarine;
     border: 2px dashed red;
@@ -350,22 +412,17 @@ main .customers-container > .single-customer-container{
     border: 2px dashed black;
 }  */
 
-.debug footer{
-    background-color: pink;
-    border: 2px dashed red;
-}
-
-.debug footer section{
+/* .debug footer section{
     background-color: blueviolet;
     border: 2px dashed black;
     min-height: 300px;
-}
+} */
 
-.debug footer .col-1-5{
+/* .debug footer .col-1-5{
     background-color: green;
     border: 2px dashed white;
     min-height: 300px;
-}
+} */
 
 /* .debug .box-trial {
     background-color: burlywood;
