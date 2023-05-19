@@ -44,6 +44,14 @@ body {
     height: 50%;
 }
 
+.img-center{
+    display: inline-block;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
 
 /* BUTTON */
 
@@ -232,6 +240,10 @@ main .customers-container{
     flex-wrap: wrap;
 }
 
+.full-customer-container{
+    width: 100%;
+}
+
 main .customers-container > .single-customer-container{
     width: calc(100% / 3);
     height: calc((100vw - 15px) / 3);
@@ -245,6 +257,27 @@ main .customers-container > .single-customer-container{
     align-items: center;
     width: 50%;
     height: 50%;
+}
+
+.customer-center-box{
+    position: relative;
+    top: 90px;
+    left: 30px;
+  }
+
+.hr-customer{
+    margin-bottom: 60px;
+    width: 30%;
+  }
+
+.customer-text{
+    display: block;
+    
+}
+
+.customer-text-bottom{
+    margin-top: 30px;
+    display: block;
 }
 
 
