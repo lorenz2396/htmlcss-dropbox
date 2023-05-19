@@ -268,7 +268,11 @@ main .customers-container > .single-customer-container{
 .hr-customer{
     margin-bottom: 60px;
     width: 30%;
-  }
+}
+
+.box-trial-container{
+    background-color: #b4d0e7;
+}
 
 .customer-text{
     display: block;
@@ -278,6 +282,18 @@ main .customers-container > .single-customer-container{
 .customer-text-bottom{
     margin-top: 30px;
     display: block;
+}
+
+.faq-container > *{
+    margin: 30px;
+
+}
+
+.h2-faq{
+    font-size: 2em;
+    position: relative;
+    left: 30px;
+    bottom: 20px;
 }
 
 
@@ -351,9 +367,9 @@ main .customers-container > .single-customer-container{
     min-height: 300px;
 }
 
-.debug .box-trial {
+/* .debug .box-trial {
     background-color: burlywood;
-}
+} */
 
 /* .debug .customers-container{
     background-color: hotpink;
