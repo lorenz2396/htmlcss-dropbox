@@ -106,7 +106,7 @@ h1{
  font-weight: bold;
 }
 
-.header-bottom .data{
+.data{
     display: flex;
     flex-wrap: wrap;
 } 
@@ -123,17 +123,17 @@ header .header-bottom{
     margin-bottom: 100px;
 }
 
-.header-bottom .data .small-data{
+.small-data{
     width: 20%;
 }
 
-.header-bottom .data .small-data .top-data{
+.top-data{
     position: relative;
     left: 220px;
 }
 
 
-.header-bottom .data .big-data{
+.big-data{
     width: 80%;
 }
 
@@ -215,6 +215,11 @@ main .box-trial > a{
 
 main .my-row hr{
     width: 30%;
+}
+
+.button-data{
+    position: relative;
+    top: 15px;  
 }
 
 main .data .small-data .partner-text{
